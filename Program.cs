@@ -8,9 +8,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
+using CloudRiches.Azure.DataCenter.Models;
 using HtmlAgilityPack;
+using Newtonsoft.Json;
 
-namespace azure_public_ip
+namespace CloudRiches.Azure.DataCenter
 {
     class Program
     {
@@ -19,12 +21,17 @@ namespace azure_public_ip
         static async Task Main(string[] args)
         {
             // Microsoft Azure Datacenter IP Ranges
-            var ipRangeFiles = await GetMicrosoftUpdateDocument("https://www.microsoft.com/en-us/download/details.aspx?id=41653", async x => await IpRangeToCsv(x));
+            var ipRangeFiles = await GetMicrosoftUpdateDocument(41653, async x => await IpRangeToCsv(x));
             CopyToLastest(ipRangeFiles);
 
             // Azure IP Ranges and Service Tags – Public Cloud
-            var serviceTagNames = await GetMicrosoftUpdateDocument("https://www.microsoft.com/en-us/download/details.aspx?id=56519");
+            var serviceTagNames = await GetMicrosoftUpdateDocument(56519, async x => await ServiceTagProcess(x));
             CopyToLastest(serviceTagNames);
+        }
+
+        static async Task<IList<string>> GetMicrosoftUpdateDocument(int id, Func<string, Task<string>> postAction = null)
+        {
+            return await GetMicrosoftUpdateDocument($"https://www.microsoft.com/en-us/download/details.aspx?id={id}", postAction);
         }
 
         static async Task<IList<string>> GetMicrosoftUpdateDocument(string refUrl, Func<string, Task<string>> postAction = null)
@@ -60,7 +67,12 @@ namespace azure_public_ip
 
             if (postAction != null)
             {
-                files.Add(await postAction(outputFileName));
+                var additionalFileName = await postAction(outputFileName);
+
+                if (!string.IsNullOrEmpty(additionalFileName))
+                {
+                    files.Add(additionalFileName);
+                }
             }
 
             return files;
@@ -101,7 +113,16 @@ namespace azure_public_ip
             }
         }
 
-        static async Task CopyToLastest(IEnumerable<string> files)
+        public static async Task<string> ServiceTagProcess(string outputFileName)
+        {
+            var json = await File.ReadAllTextAsync(outputFileName);
+
+            var serviceTag = JsonConvert.DeserializeObject<ServiceTag>(json);
+
+            return null;
+        }
+
+        static void CopyToLastest(IEnumerable<string> files)
         {
             foreach (var file in files)
             {
@@ -109,7 +130,7 @@ namespace azure_public_ip
 
                 if (file != fileWithoutTimestamp)
                 {
-                    File.Copy(file, fileWithoutTimestamp);
+                    File.Copy(file, fileWithoutTimestamp, true);
                 }
             }
         }
