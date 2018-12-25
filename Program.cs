@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
@@ -17,13 +19,15 @@ namespace azure_public_ip
         static async Task Main(string[] args)
         {
             // Microsoft Azure Datacenter IP Ranges
-            await GetMicrosoftUpdateDocument("https://www.microsoft.com/en-us/download/details.aspx?id=41653", async x => await IpRangeToCsv(x));
+            var ipRangeFiles = await GetMicrosoftUpdateDocument("https://www.microsoft.com/en-us/download/details.aspx?id=41653", async x => await IpRangeToCsv(x));
+            CopyToLastest(ipRangeFiles);
 
             // Azure IP Ranges and Service Tags – Public Cloud
-            await GetMicrosoftUpdateDocument("https://www.microsoft.com/en-us/download/details.aspx?id=56519");
+            var serviceTagNames = await GetMicrosoftUpdateDocument("https://www.microsoft.com/en-us/download/details.aspx?id=56519");
+            CopyToLastest(serviceTagNames);
         }
 
-        static async Task<string> GetMicrosoftUpdateDocument(string refUrl, Func<string, Task> postAction = null)
+        static async Task<IList<string>> GetMicrosoftUpdateDocument(string refUrl, Func<string, Task<string>> postAction = null)
         {
             var html = await _client.GetStringAsync(refUrl);
 
@@ -52,15 +56,17 @@ namespace azure_public_ip
                 await writer.WriteLineAsync(content);
             }
 
+            var files = new List<string> { outputFileName };
+
             if (postAction != null)
             {
-                await postAction(outputFileName);
+                files.Add(await postAction(outputFileName));
             }
 
-            return outputFileName;
+            return files;
         }
 
-        public static async Task IpRangeToCsv(string outputFileName)
+        public static async Task<string> IpRangeToCsv(string outputFileName)
         {
             var cancellationToken = new CancellationToken();
 
@@ -89,6 +95,21 @@ namespace azure_public_ip
                     {
                         await writer.WriteLineAsync($"{ipRange.Region},{ipRange.IpRange}");
                     }
+                }
+
+                return csvFileName;
+            }
+        }
+
+        static async Task CopyToLastest(IEnumerable<string> files)
+        {
+            foreach (var file in files)
+            {
+                var fileWithoutTimestamp = Regex.Replace(file, @"_20\d{6}\.", ".");
+
+                if (file != fileWithoutTimestamp)
+                {
+                    File.Copy(file, fileWithoutTimestamp);
                 }
             }
         }
