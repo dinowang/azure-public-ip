@@ -49,7 +49,7 @@ namespace azure_public_ip
             using (var writer = new StreamWriter(output))
             {
                 var content = await _client.GetStringAsync(downloadUrl);
-                writer.WriteLine(content);
+                await writer.WriteLineAsync(content);
             }
 
             if (postAction != null)
@@ -84,10 +84,10 @@ namespace azure_public_ip
                 using (var output = new FileStream(csvFileName, FileMode.Create, FileAccess.ReadWrite))
                 using (var writer = new StreamWriter(output))
                 {
-                    writer.WriteLine("Region,IpRange");
+                    await writer.WriteLineAsync("Region,IpRange");
                     foreach (var ipRange in regionIpRanges)
                     {
-                        writer.WriteLine($"{ipRange.Region},{ipRange.IpRange}");
+                        await writer.WriteLineAsync($"{ipRange.Region},{ipRange.IpRange}");
                     }
                 }
             }
