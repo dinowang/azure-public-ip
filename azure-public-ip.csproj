@@ -1,10 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>azure_public_ip</RootNamespace>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack.CssSelector.Core" Version="*"/>
+  </ItemGroup>
 </Project>
