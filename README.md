@@ -1,11 +1,14 @@
-# Azure Datacenter IP/Service Tags Information 
+# Azure IP Ranges and Service Tags
 
-## Introduction
+## Why
 
 (TBC)
 
-## Lastest vesions 
+## Public Cloud - Latest vesions 
 
-- [PublicIPs.xml](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/PublicIPs.xml)
-- [PublicIPs.csv](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/PublicIPs.csv)
-- [ServiceTags_Public.json](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/ServiceTags_Public.json)
+- Public IP ranges  
+  [PublicIPs.xml](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/PublicIPs.xml)  
+  [PublicIPs.csv](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/PublicIPs.csv)  
+
+- Service Tags  
+  [ServiceTags_Public.json](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/ServiceTags_Public.json)
