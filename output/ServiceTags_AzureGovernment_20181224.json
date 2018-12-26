@@ -1,0 +1,1831 @@
+{
+  "changeNumber": 31,
+  "cloud": "Federal",
+  "values": [
+    {
+      "name": "AzureActiveDirectory",
+      "id": "AzureActiveDirectory",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureAD",
+        "addressPrefixes": [
+          "13.73.64.64/26",
+          "13.73.208.128/25",
+          "52.126.194.0/23",
+          "52.126.203.96/27",
+          "52.127.2.0/27",
+          "52.127.3.128/27",
+          "52.127.26.224/27",
+          "52.127.35.96/27",
+          "52.127.43.64/27",
+          "52.127.59.96/27",
+          "52.244.120.128/25"
+        ]
+      }
+    },
+    {
+      "name": "ApiManagement",
+      "id": "ApiManagement",
+      "properties": {
+        "changeNumber": 2,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureApiManagement",
+        "addressPrefixes": [
+          "13.72.39.168/32",
+          "52.126.202.168/31",
+          "52.126.203.80/28",
+          "52.127.2.224/31",
+          "52.127.3.160/28",
+          "52.127.27.32/28",
+          "52.127.34.192/31",
+          "52.127.35.128/28",
+          "52.127.42.160/31",
+          "52.127.43.128/28",
+          "52.127.58.192/31",
+          "52.127.59.128/28",
+          "52.227.182.70/32",
+          "52.238.114.8/32",
+          "52.238.116.144/32"
+        ]
+      }
+    },
+    {
+      "name": "AppService",
+      "id": "AppService",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureAppService",
+        "addressPrefixes": [
+          "52.126.202.96/27",
+          "52.127.2.96/27",
+          "52.127.34.96/27",
+          "52.127.58.96/27"
+        ]
+      }
+    },
+    {
+      "name": "AzureConnectors",
+      "id": "AzureConnectors",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureConnectors",
+        "addressPrefixes": [
+          "52.126.202.80/28",
+          "52.127.2.160/28",
+          "52.127.26.48/28",
+          "52.127.34.160/28",
+          "52.127.42.128/28",
+          "52.127.58.160/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureContainerRegistry",
+      "id": "AzureContainerRegistry",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureContainerRegistry",
+        "addressPrefixes": [
+          "52.126.202.64/29",
+          "52.127.2.88/29",
+          "52.127.34.88/29",
+          "52.127.42.88/29",
+          "52.127.58.88/29"
+        ]
+      }
+    },
+    {
+      "name": "AzureCosmosDB",
+      "id": "AzureCosmosDB",
+      "properties": {
+        "changeNumber": 2,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureCosmosDB",
+        "addressPrefixes": [
+          "52.126.202.0/27",
+          "52.127.2.192/27",
+          "52.127.34.0/27",
+          "52.127.42.0/27",
+          "52.127.58.0/27",
+          "52.180.252.170/32",
+          "52.227.165.220/32",
+          "52.238.116.57/32",
+          "52.244.48.69/32"
+        ]
+      }
+    },
+    {
+      "name": "EventHub",
+      "id": "EventHub",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureEventHub",
+        "addressPrefixes": [
+          "23.97.0.197/32",
+          "23.97.2.26/32",
+          "23.97.16.186/32",
+          "23.97.16.249/32",
+          "52.126.202.32/28",
+          "52.127.2.32/27",
+          "52.127.26.0/27",
+          "52.127.34.32/27",
+          "52.127.42.32/27",
+          "52.127.58.32/27",
+          "52.181.162.129/32",
+          "52.181.162.144/32",
+          "52.182.90.133/32",
+          "52.182.90.144/32",
+          "52.227.171.130/32",
+          "52.238.114.175/32",
+          "52.238.116.59/32",
+          "52.238.116.60/32",
+          "52.244.48.75/32",
+          "52.244.48.85/32",
+          "52.244.202.159/32"
+        ]
+      }
+    },
+    {
+      "name": "AzureKeyVault",
+      "id": "AzureKeyVault",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureKeyVault",
+        "addressPrefixes": [
+          "23.97.13.41/32",
+          "23.97.13.179/32",
+          "23.97.30.16/32",
+          "23.97.31.219/32",
+          "52.181.160.79/32",
+          "52.181.160.83/32",
+          "52.182.88.66/32",
+          "52.182.88.70/32",
+          "52.238.116.14/31",
+          "52.244.48.22/31"
+        ]
+      }
+    },
+    {
+      "name": "AzureMachineLearning",
+      "id": "AzureMachineLearning",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureMachineLearning",
+        "addressPrefixes": [
+          "52.126.202.176/28",
+          "52.127.2.240/28",
+          "52.127.10.64/28",
+          "52.127.18.64/28",
+          "52.127.42.176/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureMonitor",
+      "id": "AzureMonitor",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureMonitor",
+        "addressPrefixes": [
+          "52.126.203.64/29",
+          "52.127.2.232/29",
+          "52.127.10.80/30",
+          "52.127.18.80/30",
+          "52.127.26.80/28",
+          "52.127.34.208/28",
+          "52.127.42.168/29",
+          "52.127.58.208/28"
+        ]
+      }
+    },
+    {
+      "name": "Sql",
+      "id": "Sql",
+      "properties": {
+        "changeNumber": 2,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureSQL",
+        "addressPrefixes": [
+          "13.72.48.140/32",
+          "13.72.52.5/32",
+          "13.72.189.52/32",
+          "13.72.190.8/32",
+          "52.126.200.0/27",
+          "52.126.201.0/27",
+          "52.127.0.0/27",
+          "52.127.1.0/27",
+          "52.127.8.0/27",
+          "52.127.9.0/27",
+          "52.127.16.0/27",
+          "52.127.17.0/27",
+          "52.127.24.0/27",
+          "52.127.25.0/27",
+          "52.127.32.0/27",
+          "52.127.33.0/27",
+          "52.127.40.0/27",
+          "52.127.41.0/27",
+          "52.127.56.0/27",
+          "52.127.57.0/27",
+          "52.181.160.27/32",
+          "52.181.160.28/31",
+          "52.181.160.30/32",
+          "52.182.88.34/31",
+          "52.182.88.36/32",
+          "52.227.161.29/32",
+          "52.227.174.155/32",
+          "52.227.180.171/32",
+          "52.238.116.32/31",
+          "52.244.48.33/32",
+          "52.244.48.34/32"
+        ]
+      }
+    },
+    {
+      "name": "ServiceBus",
+      "id": "ServiceBus",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureServiceBus",
+        "addressPrefixes": [
+          "52.126.202.48/29",
+          "52.127.2.64/28",
+          "52.127.26.32/28",
+          "52.127.34.64/28",
+          "52.127.42.64/28",
+          "52.127.58.64/28",
+          "52.227.161.208/32"
+        ]
+      }
+    },
+    {
+      "name": "Storage",
+      "id": "Storage",
+      "properties": {
+        "changeNumber": 2,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "AzureStorage",
+        "addressPrefixes": [
+          "13.72.43.16/28",
+          "13.72.43.32/28",
+          "13.72.168.64/27",
+          "23.97.32.64/26",
+          "23.97.40.64/26",
+          "52.126.192.0/24",
+          "52.126.224.0/24",
+          "52.127.116.0/22",
+          "52.181.112.16/28",
+          "52.181.112.32/28",
+          "52.181.112.64/27",
+          "52.181.112.112/28",
+          "52.181.112.128/28",
+          "52.182.96.64/27",
+          "52.182.96.112/28",
+          "52.182.96.128/28",
+          "52.182.96.160/27",
+          "52.227.72.32/27",
+          "52.227.128.16/28",
+          "52.227.128.32/28",
+          "52.235.240.16/28",
+          "52.235.240.32/28",
+          "52.235.240.64/27",
+          "52.235.240.112/28",
+          "52.235.240.128/28",
+          "52.238.120.16/28",
+          "52.238.120.32/28",
+          "52.238.120.64/27",
+          "52.238.176.16/28",
+          "52.238.176.32/28",
+          "52.239.166.0/24",
+          "52.239.176.0/25"
+        ]
+      }
+    },
+    {
+      "name": "MicrosoftContainerRegistry",
+      "id": "MicrosoftContainerRegistry",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "MicrosoftContainerRegistry",
+        "addressPrefixes": [
+          "52.126.202.56/29",
+          "52.127.2.80/29",
+          "52.127.34.80/29",
+          "52.127.42.80/29",
+          "52.127.58.80/29"
+        ]
+      }
+    },
+    {
+      "name": "ServiceFabric",
+      "id": "ServiceFabric",
+      "properties": {
+        "changeNumber": 1,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "ServiceFabric",
+        "addressPrefixes": [
+          "13.72.49.213/32",
+          "13.72.185.65/32",
+          "52.126.202.160/29",
+          "52.127.2.184/29",
+          "52.127.34.184/29",
+          "52.127.42.152/29",
+          "52.127.58.184/29",
+          "52.181.160.98/32",
+          "52.182.88.86/32",
+          "52.238.116.45/32",
+          "52.244.48.45/32"
+        ]
+      }
+    },
+    {
+      "name": "ApiManagement.USDoDCentral",
+      "id": "ApiManagement.USDoDCentral",
+      "properties": {
+        "changeNumber": 2,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "AzureApiManagement",
+        "addressPrefixes": [
+          "52.127.58.192/31",
+          "52.127.59.128/28"
+        ]
+      }
+    },
+    {
+      "name": "ApiManagement.USDoDEast",
+      "id": "ApiManagement.USDoDEast",
+      "properties": {
+        "changeNumber": 2,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureApiManagement",
+        "addressPrefixes": [
+          "52.126.202.168/31",
+          "52.126.203.80/28"
+        ]
+      }
+    },
+    {
+      "name": "ApiManagement.USGovArizona",
+      "id": "ApiManagement.USGovArizona",
+      "properties": {
+        "changeNumber": 2,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureApiManagement",
+        "addressPrefixes": [
+          "52.127.2.224/31",
+          "52.127.3.160/28"
+        ]
+      }
+    },
+    {
+      "name": "ApiManagement.USGovIowa",
+      "id": "ApiManagement.USGovIowa",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgoviowa",
+        "platform": "Azure",
+        "systemService": "AzureApiManagement",
+        "addressPrefixes": [
+          "52.127.27.32/28"
+        ]
+      }
+    },
+    {
+      "name": "ApiManagement.USGovTexas",
+      "id": "ApiManagement.USGovTexas",
+      "properties": {
+        "changeNumber": 2,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "AzureApiManagement",
+        "addressPrefixes": [
+          "52.127.34.192/31",
+          "52.127.35.128/28",
+          "52.238.114.8/32",
+          "52.238.116.144/32"
+        ]
+      }
+    },
+    {
+      "name": "ApiManagement.USGovVirginia",
+      "id": "ApiManagement.USGovVirginia",
+      "properties": {
+        "changeNumber": 2,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "AzureApiManagement",
+        "addressPrefixes": [
+          "13.72.39.168/32",
+          "52.127.42.160/31",
+          "52.127.43.128/28",
+          "52.227.182.70/32"
+        ]
+      }
+    },
+    {
+      "name": "AppService.USDoDCentral",
+      "id": "AppService.USDoDCentral",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "AzureAppService",
+        "addressPrefixes": [
+          "52.127.58.96/27"
+        ]
+      }
+    },
+    {
+      "name": "AppService.USDoDEast",
+      "id": "AppService.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureAppService",
+        "addressPrefixes": [
+          "52.126.202.96/27"
+        ]
+      }
+    },
+    {
+      "name": "AppService.USGovArizona",
+      "id": "AppService.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureAppService",
+        "addressPrefixes": [
+          "52.127.2.96/27"
+        ]
+      }
+    },
+    {
+      "name": "AppService.USGovTexas",
+      "id": "AppService.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "AzureAppService",
+        "addressPrefixes": [
+          "52.127.34.96/27"
+        ]
+      }
+    },
+    {
+      "name": "AzureConnectors.USDoDCentral",
+      "id": "AzureConnectors.USDoDCentral",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "AzureConnectors",
+        "addressPrefixes": [
+          "52.127.58.160/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureConnectors.USDoDEast",
+      "id": "AzureConnectors.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureConnectors",
+        "addressPrefixes": [
+          "52.126.202.80/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureConnectors.USGovArizona",
+      "id": "AzureConnectors.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureConnectors",
+        "addressPrefixes": [
+          "52.127.2.160/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureConnectors.USGovIowa",
+      "id": "AzureConnectors.USGovIowa",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgoviowa",
+        "platform": "Azure",
+        "systemService": "AzureConnectors",
+        "addressPrefixes": [
+          "52.127.26.48/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureConnectors.USGovTexas",
+      "id": "AzureConnectors.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "AzureConnectors",
+        "addressPrefixes": [
+          "52.127.34.160/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureConnectors.USGovVirginia",
+      "id": "AzureConnectors.USGovVirginia",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "AzureConnectors",
+        "addressPrefixes": [
+          "52.127.42.128/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureContainerRegistry.USDoDCentral",
+      "id": "AzureContainerRegistry.USDoDCentral",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "AzureContainerRegistry",
+        "addressPrefixes": [
+          "52.127.58.88/29"
+        ]
+      }
+    },
+    {
+      "name": "AzureContainerRegistry.USDoDEast",
+      "id": "AzureContainerRegistry.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureContainerRegistry",
+        "addressPrefixes": [
+          "52.126.202.64/29"
+        ]
+      }
+    },
+    {
+      "name": "AzureContainerRegistry.USGovArizona",
+      "id": "AzureContainerRegistry.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureContainerRegistry",
+        "addressPrefixes": [
+          "52.127.2.88/29"
+        ]
+      }
+    },
+    {
+      "name": "AzureContainerRegistry.USGovTexas",
+      "id": "AzureContainerRegistry.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "AzureContainerRegistry",
+        "addressPrefixes": [
+          "52.127.34.88/29"
+        ]
+      }
+    },
+    {
+      "name": "AzureContainerRegistry.USGovVirginia",
+      "id": "AzureContainerRegistry.USGovVirginia",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "AzureContainerRegistry",
+        "addressPrefixes": [
+          "52.127.42.88/29"
+        ]
+      }
+    },
+    {
+      "name": "AzureCosmosDB.USDoDCentral",
+      "id": "AzureCosmosDB.USDoDCentral",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "AzureCosmosDB",
+        "addressPrefixes": [
+          "52.127.58.0/27",
+          "52.180.252.170/32"
+        ]
+      }
+    },
+    {
+      "name": "AzureCosmosDB.USDoDEast",
+      "id": "AzureCosmosDB.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureCosmosDB",
+        "addressPrefixes": [
+          "52.126.202.0/27"
+        ]
+      }
+    },
+    {
+      "name": "AzureCosmosDB.USGovArizona",
+      "id": "AzureCosmosDB.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureCosmosDB",
+        "addressPrefixes": [
+          "52.127.2.192/27",
+          "52.244.48.69/32"
+        ]
+      }
+    },
+    {
+      "name": "AzureCosmosDB.USGovTexas",
+      "id": "AzureCosmosDB.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "AzureCosmosDB",
+        "addressPrefixes": [
+          "52.127.34.0/27",
+          "52.238.116.57/32"
+        ]
+      }
+    },
+    {
+      "name": "AzureCosmosDB.USGovVirginia",
+      "id": "AzureCosmosDB.USGovVirginia",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "AzureCosmosDB",
+        "addressPrefixes": [
+          "52.127.42.0/27",
+          "52.227.165.220/32"
+        ]
+      }
+    },
+    {
+      "name": "EventHub.USDoDCentral",
+      "id": "EventHub.USDoDCentral",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "AzureEventHub",
+        "addressPrefixes": [
+          "52.127.58.32/27",
+          "52.182.90.133/32",
+          "52.182.90.144/32"
+        ]
+      }
+    },
+    {
+      "name": "EventHub.USDoDEast",
+      "id": "EventHub.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureEventHub",
+        "addressPrefixes": [
+          "52.126.202.32/28",
+          "52.181.162.129/32",
+          "52.181.162.144/32"
+        ]
+      }
+    },
+    {
+      "name": "EventHub.USGovArizona",
+      "id": "EventHub.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureEventHub",
+        "addressPrefixes": [
+          "52.127.2.32/27",
+          "52.244.48.75/32",
+          "52.244.48.85/32",
+          "52.244.202.159/32"
+        ]
+      }
+    },
+    {
+      "name": "EventHub.USGovIowa",
+      "id": "EventHub.USGovIowa",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgoviowa",
+        "platform": "Azure",
+        "systemService": "AzureEventHub",
+        "addressPrefixes": [
+          "23.97.16.186/32",
+          "23.97.16.249/32",
+          "52.127.26.0/27"
+        ]
+      }
+    },
+    {
+      "name": "EventHub.USGovTexas",
+      "id": "EventHub.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "AzureEventHub",
+        "addressPrefixes": [
+          "52.127.34.32/27",
+          "52.238.114.175/32",
+          "52.238.116.59/32",
+          "52.238.116.60/32"
+        ]
+      }
+    },
+    {
+      "name": "EventHub.USGovVirginia",
+      "id": "EventHub.USGovVirginia",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "AzureEventHub",
+        "addressPrefixes": [
+          "23.97.0.197/32",
+          "23.97.2.26/32",
+          "52.127.42.32/27",
+          "52.227.171.130/32"
+        ]
+      }
+    },
+    {
+      "name": "AzureKeyVault.USDoDCentral",
+      "id": "AzureKeyVault.USDoDCentral",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "AzureKeyVault",
+        "addressPrefixes": [
+          "52.182.88.66/32",
+          "52.182.88.70/32"
+        ]
+      }
+    },
+    {
+      "name": "AzureKeyVault.USDoDEast",
+      "id": "AzureKeyVault.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureKeyVault",
+        "addressPrefixes": [
+          "52.181.160.79/32",
+          "52.181.160.83/32"
+        ]
+      }
+    },
+    {
+      "name": "AzureKeyVault.USGovArizona",
+      "id": "AzureKeyVault.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureKeyVault",
+        "addressPrefixes": [
+          "52.244.48.22/31"
+        ]
+      }
+    },
+    {
+      "name": "AzureKeyVault.USGovIowa",
+      "id": "AzureKeyVault.USGovIowa",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgoviowa",
+        "platform": "Azure",
+        "systemService": "AzureKeyVault",
+        "addressPrefixes": [
+          "23.97.30.16/32",
+          "23.97.31.219/32"
+        ]
+      }
+    },
+    {
+      "name": "AzureKeyVault.USGovTexas",
+      "id": "AzureKeyVault.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "AzureKeyVault",
+        "addressPrefixes": [
+          "52.238.116.14/31"
+        ]
+      }
+    },
+    {
+      "name": "AzureKeyVault.USGovVirginia",
+      "id": "AzureKeyVault.USGovVirginia",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "AzureKeyVault",
+        "addressPrefixes": [
+          "23.97.13.41/32",
+          "23.97.13.179/32"
+        ]
+      }
+    },
+    {
+      "name": "AzureMachineLearning.USDoDEast",
+      "id": "AzureMachineLearning.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureMachineLearning",
+        "addressPrefixes": [
+          "52.126.202.176/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureMachineLearning.USGovArizona",
+      "id": "AzureMachineLearning.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureMachineLearning",
+        "addressPrefixes": [
+          "52.127.2.240/28",
+          "52.127.10.64/28",
+          "52.127.18.64/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureMachineLearning.USGovVirginia",
+      "id": "AzureMachineLearning.USGovVirginia",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "AzureMachineLearning",
+        "addressPrefixes": [
+          "52.127.42.176/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureMonitor.USDoDCentral",
+      "id": "AzureMonitor.USDoDCentral",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "AzureMonitor",
+        "addressPrefixes": [
+          "52.127.58.208/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureMonitor.USDoDEast",
+      "id": "AzureMonitor.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureMonitor",
+        "addressPrefixes": [
+          "52.126.203.64/29"
+        ]
+      }
+    },
+    {
+      "name": "AzureMonitor.USGovArizona",
+      "id": "AzureMonitor.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureMonitor",
+        "addressPrefixes": [
+          "52.127.2.232/29",
+          "52.127.10.80/30",
+          "52.127.18.80/30"
+        ]
+      }
+    },
+    {
+      "name": "AzureMonitor.USGovIowa",
+      "id": "AzureMonitor.USGovIowa",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgoviowa",
+        "platform": "Azure",
+        "systemService": "AzureMonitor",
+        "addressPrefixes": [
+          "52.127.26.80/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureMonitor.USGovTexas",
+      "id": "AzureMonitor.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "AzureMonitor",
+        "addressPrefixes": [
+          "52.127.34.208/28"
+        ]
+      }
+    },
+    {
+      "name": "AzureMonitor.USGovVirginia",
+      "id": "AzureMonitor.USGovVirginia",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "AzureMonitor",
+        "addressPrefixes": [
+          "52.127.42.168/29"
+        ]
+      }
+    },
+    {
+      "name": "Sql.USDoDCentral",
+      "id": "Sql.USDoDCentral",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "AzureSQL",
+        "addressPrefixes": [
+          "52.127.56.0/27",
+          "52.127.57.0/27",
+          "52.182.88.34/31",
+          "52.182.88.36/32"
+        ]
+      }
+    },
+    {
+      "name": "Sql.USDoDEast",
+      "id": "Sql.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureSQL",
+        "addressPrefixes": [
+          "52.126.200.0/27",
+          "52.126.201.0/27",
+          "52.181.160.27/32",
+          "52.181.160.28/31",
+          "52.181.160.30/32"
+        ]
+      }
+    },
+    {
+      "name": "Sql.USGovArizona",
+      "id": "Sql.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureSQL",
+        "addressPrefixes": [
+          "52.127.0.0/27",
+          "52.127.1.0/27",
+          "52.127.8.0/27",
+          "52.127.9.0/27",
+          "52.127.16.0/27",
+          "52.127.17.0/27",
+          "52.244.48.33/32",
+          "52.244.48.34/32"
+        ]
+      }
+    },
+    {
+      "name": "Sql.USGovIowa",
+      "id": "Sql.USGovIowa",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgoviowa",
+        "platform": "Azure",
+        "systemService": "AzureSQL",
+        "addressPrefixes": [
+          "13.72.189.52/32",
+          "13.72.190.8/32",
+          "52.127.24.0/27",
+          "52.127.25.0/27"
+        ]
+      }
+    },
+    {
+      "name": "Sql.USGovTexas",
+      "id": "Sql.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "AzureSQL",
+        "addressPrefixes": [
+          "52.127.32.0/27",
+          "52.127.33.0/27",
+          "52.238.116.32/31"
+        ]
+      }
+    },
+    {
+      "name": "Sql.USGovVirginia",
+      "id": "Sql.USGovVirginia",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "AzureSQL",
+        "addressPrefixes": [
+          "13.72.48.140/32",
+          "13.72.52.5/32",
+          "52.127.40.0/27",
+          "52.127.41.0/27",
+          "52.227.161.29/32",
+          "52.227.174.155/32",
+          "52.227.180.171/32"
+        ]
+      }
+    },
+    {
+      "name": "ServiceBus.USDoDCentral",
+      "id": "ServiceBus.USDoDCentral",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "AzureServiceBus",
+        "addressPrefixes": [
+          "52.127.58.64/28"
+        ]
+      }
+    },
+    {
+      "name": "ServiceBus.USDoDEast",
+      "id": "ServiceBus.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureServiceBus",
+        "addressPrefixes": [
+          "52.126.202.48/29"
+        ]
+      }
+    },
+    {
+      "name": "ServiceBus.USGovArizona",
+      "id": "ServiceBus.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureServiceBus",
+        "addressPrefixes": [
+          "52.127.2.64/28"
+        ]
+      }
+    },
+    {
+      "name": "ServiceBus.USGovIowa",
+      "id": "ServiceBus.USGovIowa",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgoviowa",
+        "platform": "Azure",
+        "systemService": "AzureServiceBus",
+        "addressPrefixes": [
+          "52.127.26.32/28"
+        ]
+      }
+    },
+    {
+      "name": "ServiceBus.USGovTexas",
+      "id": "ServiceBus.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "AzureServiceBus",
+        "addressPrefixes": [
+          "52.127.34.64/28"
+        ]
+      }
+    },
+    {
+      "name": "ServiceBus.USGovVirginia",
+      "id": "ServiceBus.USGovVirginia",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "AzureServiceBus",
+        "addressPrefixes": [
+          "52.127.42.64/28",
+          "52.227.161.208/32"
+        ]
+      }
+    },
+    {
+      "name": "Storage.USDoDCentral",
+      "id": "Storage.USDoDCentral",
+      "properties": {
+        "changeNumber": 4,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "AzureStorage",
+        "addressPrefixes": [
+          "52.126.224.64/26",
+          "52.182.96.64/27",
+          "52.182.96.112/28",
+          "52.182.96.128/28",
+          "52.182.96.160/27"
+        ]
+      }
+    },
+    {
+      "name": "Storage.USDoDEast",
+      "id": "Storage.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "AzureStorage",
+        "addressPrefixes": [
+          "52.181.112.16/28",
+          "52.181.112.32/28",
+          "52.181.112.64/27",
+          "52.181.112.112/28",
+          "52.181.112.128/28"
+        ]
+      }
+    },
+    {
+      "name": "Storage.USGovArizona",
+      "id": "Storage.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "AzureStorage",
+        "addressPrefixes": [
+          "52.126.192.0/25",
+          "52.239.166.0/24"
+        ]
+      }
+    },
+    {
+      "name": "Storage.USGovIowa",
+      "id": "Storage.USGovIowa",
+      "properties": {
+        "changeNumber": 5,
+        "region": "usgoviowa",
+        "platform": "Azure",
+        "systemService": "AzureStorage",
+        "addressPrefixes": [
+          "13.72.168.64/27",
+          "23.97.40.64/26",
+          "52.126.224.128/26",
+          "52.127.116.64/26",
+          "52.127.116.128/25"
+        ]
+      }
+    },
+    {
+      "name": "Storage.USGovTexas",
+      "id": "Storage.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "AzureStorage",
+        "addressPrefixes": [
+          "52.126.192.128/26",
+          "52.238.120.16/28",
+          "52.238.120.32/28",
+          "52.238.120.64/27",
+          "52.238.176.16/28",
+          "52.238.176.32/28",
+          "52.239.176.0/25"
+        ]
+      }
+    },
+    {
+      "name": "Storage.USGovVirginia",
+      "id": "Storage.USGovVirginia",
+      "properties": {
+        "changeNumber": 3,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "AzureStorage",
+        "addressPrefixes": [
+          "13.72.43.16/28",
+          "13.72.43.32/28",
+          "23.97.32.64/26",
+          "52.126.192.192/26",
+          "52.126.224.0/26",
+          "52.126.224.192/26",
+          "52.127.116.0/26",
+          "52.227.72.32/27",
+          "52.227.128.16/28",
+          "52.227.128.32/28"
+        ]
+      }
+    },
+    {
+      "name": "MicrosoftContainerRegistry.USDoDCentral",
+      "id": "MicrosoftContainerRegistry.USDoDCentral",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "MicrosoftContainerRegistry",
+        "addressPrefixes": [
+          "52.127.58.80/29"
+        ]
+      }
+    },
+    {
+      "name": "MicrosoftContainerRegistry.USDoDEast",
+      "id": "MicrosoftContainerRegistry.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "MicrosoftContainerRegistry",
+        "addressPrefixes": [
+          "52.126.202.56/29"
+        ]
+      }
+    },
+    {
+      "name": "MicrosoftContainerRegistry.USGovArizona",
+      "id": "MicrosoftContainerRegistry.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "MicrosoftContainerRegistry",
+        "addressPrefixes": [
+          "52.127.2.80/29"
+        ]
+      }
+    },
+    {
+      "name": "MicrosoftContainerRegistry.USGovTexas",
+      "id": "MicrosoftContainerRegistry.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "MicrosoftContainerRegistry",
+        "addressPrefixes": [
+          "52.127.34.80/29"
+        ]
+      }
+    },
+    {
+      "name": "MicrosoftContainerRegistry.USGovVirginia",
+      "id": "MicrosoftContainerRegistry.USGovVirginia",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "MicrosoftContainerRegistry",
+        "addressPrefixes": [
+          "52.127.42.80/29"
+        ]
+      }
+    },
+    {
+      "name": "ServiceFabric.USDoDCentral",
+      "id": "ServiceFabric.USDoDCentral",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "ServiceFabric",
+        "addressPrefixes": [
+          "52.127.58.184/29",
+          "52.182.88.86/32"
+        ]
+      }
+    },
+    {
+      "name": "ServiceFabric.USDoDEast",
+      "id": "ServiceFabric.USDoDEast",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "ServiceFabric",
+        "addressPrefixes": [
+          "52.126.202.160/29",
+          "52.181.160.98/32"
+        ]
+      }
+    },
+    {
+      "name": "ServiceFabric.USGovArizona",
+      "id": "ServiceFabric.USGovArizona",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "ServiceFabric",
+        "addressPrefixes": [
+          "52.127.2.184/29",
+          "52.244.48.45/32"
+        ]
+      }
+    },
+    {
+      "name": "ServiceFabric.USGovIowa",
+      "id": "ServiceFabric.USGovIowa",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgoviowa",
+        "platform": "Azure",
+        "systemService": "ServiceFabric",
+        "addressPrefixes": [
+          "13.72.185.65/32"
+        ]
+      }
+    },
+    {
+      "name": "ServiceFabric.USGovTexas",
+      "id": "ServiceFabric.USGovTexas",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "ServiceFabric",
+        "addressPrefixes": [
+          "52.127.34.184/29",
+          "52.238.116.45/32"
+        ]
+      }
+    },
+    {
+      "name": "ServiceFabric.USGovVirginia",
+      "id": "ServiceFabric.USGovVirginia",
+      "properties": {
+        "changeNumber": 1,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "ServiceFabric",
+        "addressPrefixes": [
+          "13.72.49.213/32",
+          "52.127.42.152/29"
+        ]
+      }
+    },
+    {
+      "name": "AzureCloud.usdodcentral",
+      "id": "AzureCloud.usdodcentral",
+      "properties": {
+        "changeNumber": 5,
+        "region": "usdodcentral",
+        "platform": "Azure",
+        "systemService": "",
+        "addressPrefixes": [
+          "20.140.8.0/21",
+          "20.140.72.0/21",
+          "40.66.0.160/27",
+          "40.66.1.32/27",
+          "40.66.1.160/27",
+          "52.126.194.64/26",
+          "52.126.212.0/24",
+          "52.126.224.64/26",
+          "52.126.236.0/24",
+          "52.126.240.0/20",
+          "52.127.56.0/21",
+          "52.127.68.0/22",
+          "52.127.76.0/22",
+          "52.127.80.0/24",
+          "52.127.112.0/22",
+          "52.127.128.0/20",
+          "52.180.192.0/18",
+          "52.182.0.0/17",
+          "52.245.2.0/24",
+          "52.246.145.0/24",
+          "104.210.20.0/22"
+        ]
+      }
+    },
+    {
+      "name": "AzureCloud.usdodeast",
+      "id": "AzureCloud.usdodeast",
+      "properties": {
+        "changeNumber": 3,
+        "region": "usdodeast",
+        "platform": "Azure",
+        "systemService": "",
+        "addressPrefixes": [
+          "20.140.0.0/21",
+          "20.140.64.0/21",
+          "40.66.0.128/27",
+          "40.66.1.0/27",
+          "40.66.1.128/27",
+          "52.126.194.0/26",
+          "52.126.200.0/21",
+          "52.126.213.0/24",
+          "52.126.237.0/24",
+          "52.127.64.0/22",
+          "52.127.72.0/22",
+          "52.127.81.0/24",
+          "52.127.108.0/22",
+          "52.127.144.0/20",
+          "52.181.0.0/16",
+          "52.245.7.0/24",
+          "52.246.144.0/24",
+          "52.246.146.0/23",
+          "104.210.16.0/22"
+        ]
+      }
+    },
+    {
+      "name": "AzureCloud.usgovarizona",
+      "id": "AzureCloud.usgovarizona",
+      "properties": {
+        "changeNumber": 4,
+        "region": "usgovarizona",
+        "platform": "Azure",
+        "systemService": "",
+        "addressPrefixes": [
+          "20.140.16.0/22",
+          "20.140.48.0/21",
+          "20.140.81.0/24",
+          "40.66.2.64/27",
+          "40.66.3.64/27",
+          "40.66.4.64/27",
+          "40.112.41.0/24",
+          "40.112.42.0/23",
+          "52.115.248.0/22",
+          "52.126.0.0/18",
+          "52.126.192.0/25",
+          "52.126.194.128/26",
+          "52.126.211.0/24",
+          "52.127.0.0/20",
+          "52.127.16.0/21",
+          "52.127.84.0/22",
+          "52.127.92.0/22",
+          "52.127.96.0/24",
+          "52.127.208.0/20",
+          "52.127.224.0/20",
+          "52.127.244.0/22",
+          "52.239.166.0/24",
+          "52.244.0.0/16",
+          "52.245.0.0/24",
+          "52.245.6.0/24",
+          "52.245.128.0/17"
+        ]
+      }
+    },
+    {
+      "name": "AzureCloud.usgoviowa",
+      "id": "AzureCloud.usgoviowa",
+      "properties": {
+        "changeNumber": 10,
+        "region": "usgoviowa",
+        "platform": "Azure",
+        "systemService": "",
+        "addressPrefixes": [
+          "13.72.128.0/18",
+          "13.73.64.0/19",
+          "20.140.32.0/20",
+          "23.97.16.0/20",
+          "23.97.40.0/21",
+          "40.66.2.128/28",
+          "40.66.3.128/27",
+          "40.66.4.128/27",
+          "40.112.38.32/27",
+          "40.112.38.96/27",
+          "40.112.38.160/27",
+          "40.112.47.0/24",
+          "52.126.194.192/26",
+          "52.126.209.0/24",
+          "52.126.216.0/22",
+          "52.126.224.128/26",
+          "52.126.233.0/24",
+          "52.126.234.0/24",
+          "52.127.24.0/21",
+          "52.127.82.0/24",
+          "52.127.116.64/26",
+          "52.127.116.128/25",
+          "52.127.176.0/20",
+          "52.127.252.0/22",
+          "52.243.0.0/19"
+        ]
+      }
+    },
+    {
+      "name": "AzureCloud.usgovtexas",
+      "id": "AzureCloud.usgovtexas",
+      "properties": {
+        "changeNumber": 3,
+        "region": "usgovtexas",
+        "platform": "Azure",
+        "systemService": "",
+        "addressPrefixes": [
+          "20.140.20.0/22",
+          "20.140.56.0/21",
+          "20.140.80.0/24",
+          "40.66.2.32/27",
+          "40.66.3.32/27",
+          "40.66.4.32/27",
+          "40.112.40.0/24",
+          "52.108.64.0/23",
+          "52.115.252.0/22",
+          "52.126.128.0/18",
+          "52.126.192.128/26",
+          "52.126.195.0/26",
+          "52.126.210.0/24",
+          "52.126.220.0/22",
+          "52.127.32.0/21",
+          "52.127.88.0/22",
+          "52.127.97.0/24",
+          "52.127.192.0/20",
+          "52.127.248.0/22",
+          "52.238.64.0/18",
+          "52.238.128.0/18",
+          "52.239.176.0/25",
+          "52.243.128.0/17",
+          "52.245.1.0/24",
+          "52.245.4.0/24",
+          "52.249.96.0/19"
+        ]
+      }
+    },
+    {
+      "name": "AzureCloud.usgovvirginia",
+      "id": "AzureCloud.usgovvirginia",
+      "properties": {
+        "changeNumber": 7,
+        "region": "usgovvirginia",
+        "platform": "Azure",
+        "systemService": "",
+        "addressPrefixes": [
+          "13.72.0.0/18",
+          "13.73.208.0/20",
+          "13.77.224.0/19",
+          "23.97.0.0/20",
+          "23.97.32.0/21",
+          "40.66.2.0/27",
+          "40.66.3.0/27",
+          "40.66.4.0/27",
+          "40.112.38.0/27",
+          "40.112.38.64/27",
+          "40.112.38.128/27",
+          "40.112.44.0/23",
+          "40.112.46.0/24",
+          "52.108.66.0/23",
+          "52.126.64.0/18",
+          "52.126.192.192/26",
+          "52.126.195.64/26",
+          "52.126.196.0/22",
+          "52.126.208.0/24",
+          "52.126.224.0/26",
+          "52.126.224.192/26",
+          "52.126.232.0/24",
+          "52.127.40.0/21",
+          "52.127.48.0/21",
+          "52.127.83.0/24",
+          "52.127.116.0/26",
+          "52.127.160.0/20",
+          "52.127.240.0/22",
+          "52.227.0.0/16",
+          "52.245.3.0/24",
+          "52.245.5.0/24",
+          "52.247.128.0/18"
+        ]
+      }
+    },
+    {
+      "name": "AzureCloud",
+      "id": "AzureCloud",
+      "properties": {
+        "changeNumber": 15,
+        "region": "",
+        "platform": "Azure",
+        "systemService": "",
+        "addressPrefixes": [
+          "13.72.0.0/18",
+          "13.72.128.0/18",
+          "13.73.64.0/19",
+          "13.73.208.0/20",
+          "13.77.224.0/19",
+          "20.140.0.0/21",
+          "20.140.8.0/21",
+          "20.140.16.0/22",
+          "20.140.20.0/22",
+          "20.140.32.0/20",
+          "20.140.48.0/21",
+          "20.140.56.0/21",
+          "20.140.64.0/21",
+          "20.140.72.0/21",
+          "20.140.80.0/24",
+          "20.140.81.0/24",
+          "23.97.0.0/20",
+          "23.97.16.0/20",
+          "23.97.32.0/21",
+          "23.97.40.0/21",
+          "40.66.0.128/27",
+          "40.66.0.160/27",
+          "40.66.1.0/27",
+          "40.66.1.32/27",
+          "40.66.1.128/27",
+          "40.66.1.160/27",
+          "40.66.2.0/27",
+          "40.66.2.32/27",
+          "40.66.2.64/27",
+          "40.66.2.128/28",
+          "40.66.3.0/27",
+          "40.66.3.32/27",
+          "40.66.3.64/27",
+          "40.66.3.128/27",
+          "40.66.4.0/27",
+          "40.66.4.32/27",
+          "40.66.4.64/27",
+          "40.66.4.128/27",
+          "40.112.38.0/27",
+          "40.112.38.32/27",
+          "40.112.38.64/27",
+          "40.112.38.96/27",
+          "40.112.38.128/27",
+          "40.112.38.160/27",
+          "40.112.40.0/24",
+          "40.112.41.0/24",
+          "40.112.42.0/23",
+          "40.112.44.0/23",
+          "40.112.46.0/24",
+          "40.112.47.0/24",
+          "52.108.64.0/23",
+          "52.108.66.0/23",
+          "52.115.248.0/22",
+          "52.115.252.0/22",
+          "52.126.0.0/18",
+          "52.126.64.0/18",
+          "52.126.128.0/18",
+          "52.126.192.0/25",
+          "52.126.192.128/26",
+          "52.126.192.192/26",
+          "52.126.194.0/26",
+          "52.126.194.64/26",
+          "52.126.194.128/26",
+          "52.126.194.192/26",
+          "52.126.195.0/26",
+          "52.126.195.64/26",
+          "52.126.196.0/22",
+          "52.126.200.0/21",
+          "52.126.208.0/24",
+          "52.126.209.0/24",
+          "52.126.210.0/24",
+          "52.126.211.0/24",
+          "52.126.212.0/24",
+          "52.126.213.0/24",
+          "52.126.216.0/22",
+          "52.126.220.0/22",
+          "52.126.224.0/26",
+          "52.126.224.64/26",
+          "52.126.224.128/26",
+          "52.126.224.192/26",
+          "52.126.232.0/24",
+          "52.126.233.0/24",
+          "52.126.234.0/24",
+          "52.126.236.0/24",
+          "52.126.237.0/24",
+          "52.126.240.0/20",
+          "52.127.0.0/20",
+          "52.127.16.0/21",
+          "52.127.24.0/21",
+          "52.127.32.0/21",
+          "52.127.40.0/21",
+          "52.127.48.0/21",
+          "52.127.56.0/21",
+          "52.127.64.0/22",
+          "52.127.68.0/22",
+          "52.127.72.0/22",
+          "52.127.76.0/22",
+          "52.127.80.0/24",
+          "52.127.81.0/24",
+          "52.127.82.0/24",
+          "52.127.83.0/24",
+          "52.127.84.0/22",
+          "52.127.88.0/22",
+          "52.127.92.0/22",
+          "52.127.96.0/24",
+          "52.127.97.0/24",
+          "52.127.108.0/22",
+          "52.127.112.0/22",
+          "52.127.116.0/26",
+          "52.127.116.64/26",
+          "52.127.116.128/25",
+          "52.127.128.0/20",
+          "52.127.144.0/20",
+          "52.127.160.0/20",
+          "52.127.176.0/20",
+          "52.127.192.0/20",
+          "52.127.208.0/20",
+          "52.127.224.0/20",
+          "52.127.240.0/22",
+          "52.127.244.0/22",
+          "52.127.248.0/22",
+          "52.127.252.0/22",
+          "52.180.192.0/18",
+          "52.181.0.0/16",
+          "52.182.0.0/17",
+          "52.227.0.0/16",
+          "52.238.64.0/18",
+          "52.238.128.0/18",
+          "52.239.166.0/24",
+          "52.239.176.0/25",
+          "52.243.0.0/19",
+          "52.243.128.0/17",
+          "52.244.0.0/16",
+          "52.245.0.0/24",
+          "52.245.1.0/24",
+          "52.245.2.0/24",
+          "52.245.3.0/24",
+          "52.245.4.0/24",
+          "52.245.5.0/24",
+          "52.245.6.0/24",
+          "52.245.7.0/24",
+          "52.245.128.0/17",
+          "52.246.144.0/24",
+          "52.246.145.0/24",
+          "52.246.146.0/23",
+          "52.247.128.0/18",
+          "52.249.96.0/19",
+          "104.210.16.0/22",
+          "104.210.20.0/22"
+        ]
+      }
+    }
+  ]
+}

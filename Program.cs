@@ -24,9 +24,21 @@ namespace CloudRiches.Azure.DataCenter
             var ipRangeFiles = await GetMicrosoftUpdateDocument(41653, async x => await IpRangeToCsv(x));
             CopyToLastest(ipRangeFiles);
 
+            // Microsoft Azure Datacenter IP Ranges in China
+            var chinaIpRangeFiles = await GetMicrosoftUpdateDocument(42064, async x => await IpRangeToCsv(x));
+            CopyToLastest(chinaIpRangeFiles);
+
             // Azure IP Ranges and Service Tags – Public Cloud
             var serviceTagNames = await GetMicrosoftUpdateDocument(56519, async x => await ServiceTagProcess(x));
             CopyToLastest(serviceTagNames);
+
+            // Azure IP Ranges and Service Tags – US Government Cloud
+            var usGovServiceTagNames = await GetMicrosoftUpdateDocument(57063, async x => await ServiceTagProcess(x));
+            CopyToLastest(usGovServiceTagNames);
+
+            // Microsoft Public IP Space
+            var microsoftPublicIpSpaces = await GetMicrosoftUpdateDocument(53602);
+            CopyToLastest(microsoftPublicIpSpaces);
         }
 
         static async Task<IList<string>> GetMicrosoftUpdateDocument(int id, Func<string, Task<string>> postAction = null)
