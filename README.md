@@ -19,3 +19,14 @@
 
 - Service Tags in US Government Cloud  
   [ServiceTags_AzureGovernment.json](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/ServiceTags_AzureGovernment.json)  
+
+# Others
+
+## Microsoft 
+
+- Microsoft IP Range GeoLocation  
+  [geoloc-Microsoft.csv](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/geoloc-Microsoft.csv)  
+
+- Microsoft Public IP Space  
+  [msft-public-ips.csv](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/msft-public-ips.csv)  
+
