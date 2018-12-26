@@ -36,6 +36,10 @@ namespace CloudRiches.Azure.DataCenter
             var usGovServiceTagNames = await GetMicrosoftUpdateDocument(57063, async x => await ServiceTagProcess(x));
             CopyToLastest(usGovServiceTagNames);
 
+            // Microsoft IP Range GeoLocation
+            var microsoftIpRangeGeolocations = await GetMicrosoftUpdateDocument(53601);
+            CopyToLastest(microsoftIpRangeGeolocations);
+
             // Microsoft Public IP Space
             var microsoftPublicIpSpaces = await GetMicrosoftUpdateDocument(53602);
             CopyToLastest(microsoftPublicIpSpaces);
