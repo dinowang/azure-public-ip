@@ -4,7 +4,7 @@
 
 (TBC)
 
-## Public Cloud - Latest vesions 
+## Latest vesions 
 
 - Public IP ranges  
   [PublicIPs.xml](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/PublicIPs.xml)  
@@ -16,3 +16,6 @@
 
 - Service Tags  
   [ServiceTags_Public.json](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/ServiceTags_Public.json)
+
+- Service Tags in US Government Cloud
+  [ServiceTags_AzureGovernment.json](https://raw.githubusercontent.com/dinowang/azure-public-ip/master/output/ServiceTags_AzureGovernment.json)  
