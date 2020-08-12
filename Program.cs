@@ -20,6 +20,8 @@ namespace CloudRiches.Azure.DataCenter
 
         static async Task Main(string[] args)
         {
+
+
             // Microsoft Azure Datacenter IP Ranges
             var ipRangeFiles = await GetMicrosoftUpdateDocument(41653, async x => await IpRangeToCsv(x));
             CopyToLastest(ipRangeFiles);
@@ -142,7 +144,7 @@ namespace CloudRiches.Azure.DataCenter
         {
             foreach (var file in files)
             {
-                var fileWithoutTimestamp = Regex.Replace(file, @"_20\d{6}\.", ".");
+                var fileWithoutTimestamp = Regex.Replace(file, @"_20\d{6}\."                , ".");
 
                 if (file != fileWithoutTimestamp)
                 {
